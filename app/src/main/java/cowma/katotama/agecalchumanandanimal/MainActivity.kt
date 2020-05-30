@@ -39,14 +39,14 @@ class MainActivity : AppCompatActivity() {
                 val theDate = sdf.parse(selectedDate)
                 Toast.makeText(this,"the date is $sdf", Toast.LENGTH_LONG).show()
 
-                val selectedDateInMinute = theDate!!.time
+                val selectedDateInMinute = theDate!!.time / 60000
 
                 //current date
                 val currentDate = sdf.parse(sdf.format(System.currentTimeMillis()))
-                val currentDateInMinute = currentDate!!.time
+                val currentDateInMinute = currentDate!!.time / 60000
 
                 //differenceDate
-                val differenceMinute = (currentDateInMinute - selectedDateInMinute) / (1000 * 60 * 60 * 24 )
+                val differenceMinute = (currentDateInMinute - selectedDateInMinute) / ( 60 * 24 )
 
                 textDifferenceInMinute.setText(differenceMinute.toString())
 
