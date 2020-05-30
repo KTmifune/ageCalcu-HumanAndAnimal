@@ -61,8 +61,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:text="データの選択"
+        android:text="誕生日を選択する"
         android:textSize="20sp"
+        android:background="@color/baseBtnColor"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
@@ -92,7 +93,7 @@
         app:layout_constraintTop_toBottomOf="@+id/tvSelectedData" />
 
     <TextView
-        android:id="@+id/textData"
+        android:id="@+id/textDate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="20dp"
@@ -102,7 +103,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/textAge"
+        android:id="@+id/textDifferenceInMinute"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="20dp"

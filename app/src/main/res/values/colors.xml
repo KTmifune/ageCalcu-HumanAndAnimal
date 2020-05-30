@@ -8,6 +8,7 @@
     <color name="ageTextBackgroundColor">#C846DCE0</color>
     <color name="ageTextColor">#FFFFFF</color>
     <color name="lightGreyTextColor">#B7B7B7</color>
+    <color name="baseBtnColor">#FFFFFF</color>
 
 
 </resources>
